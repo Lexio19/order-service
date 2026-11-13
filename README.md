@@ -160,7 +160,7 @@ docker compose exec postgres psql -U orders_user -d orders_db
 
 Dentro de `psql`:
 
-```sql
+```console
 SELECT current_database();
 \dt
 SELECT * FROM flyway_schema_history;
