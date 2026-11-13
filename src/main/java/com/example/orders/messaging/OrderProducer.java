@@ -1,9 +1,7 @@
 
 package com.example.orders.messaging;
-
-import com.example.orders.events.OrderCreatedEvent;
 import com.example.orders.model.Order;
-
+import com.example.orders.events.OrderCreatedEvent;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

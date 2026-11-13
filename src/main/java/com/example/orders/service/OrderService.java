@@ -1,12 +1,11 @@
 
 package com.example.orders.service;
-
+import com.example.orders.model.Order;
+import com.example.orders.model.OrderStatus;
 import com.example.orders.dto.CreateOrderRequest;
 import com.example.orders.exception.InvalidOrderStateException;
 import com.example.orders.exception.OrderNotFoundException;
 import com.example.orders.messaging.OrderProducer;
-import com.example.orders.model.Order;
-import com.example.orders.model.OrderStatus;
 import com.example.orders.repository.OrderRepository;
 
 import org.springframework.stereotype.Service;

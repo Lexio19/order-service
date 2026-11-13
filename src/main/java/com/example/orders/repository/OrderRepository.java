@@ -1,8 +1,8 @@
 
 package com.example.orders.repository;
 
-import com.example.orders.model.Order;
 import com.example.orders.model.OrderStatus;
+import com.example.orders.model.Order;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
